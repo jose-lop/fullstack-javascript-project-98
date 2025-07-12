@@ -7,6 +7,3 @@ const greetUser = () => {
 };
 
 export default greetUser;
-
-
-

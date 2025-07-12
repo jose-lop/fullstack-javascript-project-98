@@ -1,0 +1,10 @@
+env:
+  es2022: true
+  node: true
+
+extends:
+  - airbnb-base
+
+rules:
+  no-console: off
+  import/extensions: off
