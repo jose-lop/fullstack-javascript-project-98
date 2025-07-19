@@ -7,3 +7,7 @@
 ## 🎮 Demostración del juego brain-even
 
 https://asciinema.org/a/asQ63XgjvZg7NmxdNeJ0Ssuw1
+
+### 🎮 Demostración del juego brain-calc
+
+[![asciinema demo](https://asciinema.org/a/GQAyIRpcvLkQeQoMJvlKJ4Jlx.svg)](https://asciinema.org/a/GQAyIRpcvLkQeQoMJvlKJ4Jlx)
