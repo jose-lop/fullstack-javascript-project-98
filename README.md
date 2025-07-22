@@ -11,3 +11,7 @@ https://asciinema.org/a/asQ63XgjvZg7NmxdNeJ0Ssuw1
 ### 🎮 Demostración del juego brain-calc
 
 [![asciinema demo](https://asciinema.org/a/GQAyIRpcvLkQeQoMJvlKJ4Jlx.svg)](https://asciinema.org/a/GQAyIRpcvLkQeQoMJvlKJ4Jlx)
+
+## Demo Crea el juego "Máximo común divisor (MCD)
+
+[Ver grabación en asciinema](https://asciinema.org/a/0FdsnyNMNr4wEe86xyoHJnABD)
