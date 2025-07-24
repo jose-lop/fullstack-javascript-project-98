@@ -4,12 +4,16 @@ import runGameEngine from '../index.js';
 const DESCRIPTION = 'Encuentra el maximo comun divisor de los numeros dados.';
 
 const getGcd = (a, b) => {
-  while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
+  let x = a;
+  let y = b;
+
+  while (y !== 0) {
+    const temp = y;
+    y = x % y;
+    x = temp;
   }
-  return a;
+
+  return x;
 };
 
 const generateRound = () => {

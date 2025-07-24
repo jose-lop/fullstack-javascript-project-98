@@ -1,0 +1,24 @@
+import { getRandomInt } from '../utils.js';
+import runGameEngine from '../index.js';
+
+const description = '¿Qué número falta en la progresión?';
+
+const generateProgression = (start, step, length) => {
+  return Array.from({ length }, (_, i) => start + i * step);
+};
+
+const generateRound = () => {
+  const progressionLength = 10;
+  const start = getRandomInt(1, 20);
+  const step = getRandomInt(2, 10);
+  const hiddenIndex = getRandomInt(0, progressionLength - 1);
+
+  const progression = generateProgression(start, step, progressionLength);
+  const correctAnswer = String(progression[hiddenIndex]);
+  progression[hiddenIndex] = '..';
+  const question = progression.join(' ');
+
+  return [question, correctAnswer];
+};
+
+export default () => runGameEngine(generateRound, description);
