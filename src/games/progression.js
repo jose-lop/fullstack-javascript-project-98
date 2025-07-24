@@ -4,7 +4,7 @@ import runGameEngine from '../index.js';
 const description = '¿Qué número falta en la progresión?';
 
 const generateProgression = (start, step, length) => {
-  return Array.from({ length }, (_, i) => start + i * step);
+  Array.from({ length }, (_, i) => start + i * step);
 };
 
 const generateRound = () => {

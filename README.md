@@ -15,3 +15,9 @@ https://asciinema.org/a/asQ63XgjvZg7NmxdNeJ0Ssuw1
 ## Demo Crea el juego "Máximo común divisor (MCD)
 
 [Ver grabación en asciinema](https://asciinema.org/a/0FdsnyNMNr4wEe86xyoHJnABD)
+
+## 🧠 Juego: Progresión Aritmética
+
+Este juego muestra una secuencia de números con una lógica aritmética. Uno de los números está oculto y el jugador debe adivinar cuál es.
+
+(https://asciinema.org/a/4mz9X4LEeN8qZ3he1hOBpUydm)
