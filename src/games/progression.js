@@ -1,4 +1,4 @@
-import { getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 import runGameEngine from '../index.js';
 
 const description = '¿Qué número falta en la progresión?';
