@@ -6,7 +6,7 @@ const runEvenGame = () => {
   console.log('¡Bienvenido a Brain Games!');
   const name = readlineSync.question('¿Cual es tu nombre? ');
   console.log(`¡Hola, ${name}!`);
-  console.log('Responde "yes" si el numero es par, de lo contrario responde "no".');
+  console.log('Responde "yes" si el número es par, de lo contrario responde "no".');
 
   let correctAnswers = 0;
 
