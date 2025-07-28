@@ -1,7 +1,7 @@
 import getRandomInt from '../utils.js';
 import runGameEngine from '../index.js';
 
-const DESCRIPTION = 'Encuentra el maximo comun divisor de los numeros dados.';
+const DESCRIPTION = 'Encuentra el máximo común divisor de los números dados.';
 
 const getGcd = (a, b) => {
   let x = a;
