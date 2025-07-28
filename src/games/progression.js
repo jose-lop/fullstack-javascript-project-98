@@ -4,8 +4,7 @@ import runGameEngine from '../index.js';
 const DESCRIPTION = '¿Qué número falta en la progresión?';
 
 // eslint-disable-next-line max-len
-const generateProgression = (start, step, length) =>
-  Array.from({ length }, (_, i) => start + i * step);
+const generateProgression = (start, step, length) => Array.from({ length }, (_, i) => start + i * step);
 
 const generateRound = () => {
   const progressionLength = 10;

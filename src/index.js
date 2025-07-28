@@ -15,7 +15,7 @@ export default function runGameEngine(generateRound, description) {
 
     if (userAnswer !== correctAnswer) {
       console.log(
-        `'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`
+        `'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`,
       );
       console.log(`¡Intentémoslo de nuevo, ${name}!`);
       return;

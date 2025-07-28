@@ -3,8 +3,7 @@ import runGameEngine from '../index.js';
 const operations = ['+', '-', '*'];
 
 const getRandomNumber = () => Math.floor(Math.random() * 100);
-const getRandomOperation = () =>
-  operations[Math.floor(Math.random() * operations.length)];
+const getRandomOperation = () => operations[Math.floor(Math.random() * operations.length)];
 
 const generateRound = () => {
   const num1 = getRandomNumber();
