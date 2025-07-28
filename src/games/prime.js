@@ -1,7 +1,8 @@
 import getRandomInt from '../utils.js';
 import runGameEngine from '../index.js';
 
-const DESCRIPTION = 'Responde "yes" si el número dado es primo. De lo contrario, responde "no".';
+const DESCRIPTION =
+  'Responde "yes" si el número dado es primo. De lo contrario, responde "no".';
 
 const isPrime = (num) => {
   if (num < 2) return false;

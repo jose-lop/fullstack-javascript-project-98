@@ -13,16 +13,18 @@
   "description": "[![Actions Status](https://github.com/jose-lop/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/jose-lop/fullstack-javascript-project-98/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": { 
+  "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.6.2"
   }
 }
